@@ -1,0 +1,17 @@
+[
+  {
+    "title": "AWS Elastic Beanstalk Deployment",
+    "description": "Deployed a web application using AWS Elastic Beanstalk, making it easy to manage and scale.",
+    "image": "images/beanstalk.jpg"
+  },
+  {
+    "title": "Serverless Web App",
+    "description": "Built a serverless web application on AWS using S3, DynamoDB, Lambda, API Gateway.",
+    "image": "images/serverless.jpg"
+  },
+  {
+    "title": "Amazon RDS Implementation",
+    "description": "Implemented Amazon RDS for efficient and scalable relational database management.",
+    "image": "images/RDS.jpg"
+  }
+]

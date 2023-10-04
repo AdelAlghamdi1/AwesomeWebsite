@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Montserrat&family=Playfair+Display:ital,wght@1,500;1,800&family=Roboto:wght@100&family=Tajawal:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cairo', sans-serif !important;
+}
+
+.navbar {
+  background-color: white;
+  color: black;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, .3);
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.logo {
+  color: #7f40f1;
+}
+
+.bgHome {
+  background-image: url(/images/blogbg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+
+
+.btn-color,
+.btn-color:hover {
+  color: #fff;
+  background-color: #7f40f1;
+}
+
+form {
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.profile-image {
+  max-width: 200px;
+  border-radius: 50%;
+}
+.skill-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+  .skill-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+}
+
+.skill-card i {
+    color: #007bff;
+}
+
+.skill-card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
+    font-size: 16px;
+}
