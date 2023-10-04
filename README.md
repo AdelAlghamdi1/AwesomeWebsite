@@ -7,8 +7,8 @@ Welcome to the Awesome Website project! This website showcases various features 
 1. [Features](#1-features)
 2. [Installation](#2-installation)
 3. [Usage](#3-usage)
-4. [Implementation Details](#5-implementation-details)
-
+4. [Implementation Details](#4-implementation-details)
+5. [Novel Features](#5-novel-features)
 
 ## 1. Features
 
@@ -35,7 +35,6 @@ To run this project locally, follow these steps:
 
 After installation, open your web browser and go to `http://localhost:3000` to view the Awesome Website.
 
-
 ## 4. Implementation Details
 
 In this section, we provide detailed insights into how we implemented specific features of the Awesome Website.
@@ -48,6 +47,12 @@ We'll explain step-by-step how we integrated AWS services into the website, incl
 
 Here, we'll dive into the JavaScript code used to create the interactive portfolio, fetching project data from JSON and dynamically populating the content.
 
+## 5. Novel Features
+
+### Novel Feature 1: Unique AWS Use Cases
+
+- **Description:** This website showcases unique and advanced use cases of AWS services.
+- **Implementation Details:** We've gone beyond the basics to demonstrate innovative applications of AWS, highlighting its capabilities for various scenarios.
 
 ---
 
