@@ -9,10 +9,9 @@ const port = process.env.PORT || 3000;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(cors());
 app.use(express.static(path.join(__dirname, "public")));
 
-app.use(cors());
-res.status(404).send('404: Page Not Found');
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "index.html"));
 });
@@ -93,7 +92,11 @@ app.get("/api/get-message", (req, res) => {
     }
   });
 });
+app.use((req, res, next) => {
+  res.status(404).send('404, page not found!');
+});
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+
