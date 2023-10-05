@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use(cors());
-
+res.status(404).send('404: Page Not Found');
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "index.html"));
 });
